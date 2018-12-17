@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_list"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="@string/nav_list_title">
+
+        </item>
+    </group>
+
+    <item android:title="Accidents">
+        <menu>
+            <item
+
+                android:id="@+id/nav_accident"
+                android:title="Accidents">
+
+            </item>
+        </menu>
+    </item>
+
+        <item android:title="Settings">
+            <menu>
+                <item
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:id="@+id/nav_settings"
+                    android:title="Settings">
+
+                </item>
+
+                <item
+                    android:icon="@drawable/ic_perm_identity_black_24dp"
+                    android:id="@+id/nav_update_user"
+                    android:title="Update Information">
+
+                </item>
+            </menu>
+        </item>
+
+    <item android:title="Log off">
+        <menu>
+            <item android:id="@+id/nav_logoff"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/nav_logoff">
+
+            </item>
+        </menu>
+
+        </item>
+
+
+</menu>

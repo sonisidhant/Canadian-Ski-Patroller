@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "693019050633",
+    "firebase_url": "https://canadian-ski-patroller-2671f.firebaseio.com",
+    "project_id": "canadian-ski-patroller-2671f",
+    "storage_bucket": "canadian-ski-patroller-2671f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693019050633:android:25cef4e8cb0d69d8",
+        "android_client_info": {
+          "package_name": "com.example.nidal.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693019050633-ainpg7psgih7q9rqoruvjvuvs05rmhfr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nidal.project",
+            "certificate_hash": "b42b5e5752de6d8a32e7608e0154d6a742bc8711"
+          }
+        },
+        {
+          "client_id": "693019050633-kjv8v3567gma0j0d7ipqvfihf00jv2ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt35f9bFyi3VtB-KZKQoII7sbXCRCMdMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693019050633-kjv8v3567gma0j0d7ipqvfihf00jv2ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

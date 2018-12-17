@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccidentActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_accident"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/people"
+        android:layout_width="218dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="How many people are involved?" />
+
+    <TextView
+        android:id="@+id/bandaid"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="Is the person conscious?" />
+
+    <TextView
+        android:id="@+id/bleeding"
+        android:layout_width="218dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:text="Are there any spinal injuries?" />
+
+    <TextView
+        android:id="@+id/critical"
+        android:layout_width="217dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:text="Is there severe bleeding?" />
+
+    <TextView
+        android:id="@+id/ambulance"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="218dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="320dp"
+        android:text="Is the person breathing?" />
+
+    <TextView
+        android:id="@+id/concerns"
+        android:layout_width="218dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:text="Are there any other primary concerns or spinal injuries?" />
+
+
+    <NumberPicker
+        android:id="@+id/peopleN"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignTop="@+id/people"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-25dp"
+        android:layout_marginEnd="12dp" />
+
+    <CheckBox
+        android:id="@+id/bandaidYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/peopleN"
+        android:layout_alignTop="@+id/bandaid"
+        android:layout_alignParentEnd="true" />
+
+
+    <CheckBox
+        android:id="@+id/bleedingYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/peopleN"
+        android:layout_alignTop="@+id/bleeding" />
+
+
+    <CheckBox
+        android:id="@+id/criticalYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/peopleN"
+        android:layout_alignTop="@+id/critical" />
+
+    <CheckBox
+        android:id="@+id/ambulanceYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/peopleN"
+        android:layout_alignTop="@+id/ambulance" />
+
+    <EditText
+        android:id="@+id/spinal"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:maxLines="2"
+        android:hint="Enter any primary concerns or spinal injuries"
+        android:layout_marginBottom="210dp"
+        />
+
+
+    <Button
+        android:id="@+id/emergency"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Emergency" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Submit Accident" />
+
+</RelativeLayout>
